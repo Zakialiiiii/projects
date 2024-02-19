@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="und">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel:wght@400" />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Nanum+Gothic'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="particles-js"></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #164863!important;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/Nexus-removebg-preview.png" alt="" style="width: 150px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="index.html" style="color: #DDF2FD!important;">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#Animal" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #DDF2FD!important;">Animal</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="crab.html">Crab</a></li>
+                <li><a class="dropdown-item" href="dolphin.html">Dolphin</a></li>
+                <li><a class="dropdown-item" href="JellyFish.html">Jelly Fish</a></li>
+                <li><a class="dropdown-item" href="octopus.html">Octupus</a></li>
+                <li><a class="dropdown-item" href="seahorse.html">Sea Horse</a></li>
+                <li><a class="dropdown-item" href="StarFish.html">Star Fish</a></li>
+              </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery"style="color: #DDF2FD!important;">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact"style="color: #DDF2FD!important;">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Timings"style="color: #DDF2FD!important;">Timings</a>
+              </li>
+                
+              <li class="nav-item">
+                <a class="nav-link" href="#Feedback"style="color: #DDF2FD!important;">Feedback</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-bar">
+              <div id="search-results"></div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/wallpaperflare.com_wallpaper.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/rawImage.jpg" class="d-block w-100" alt="..." style="height: 800px">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/SEALIFETicketinBerlin.jpg" class="d-block w-100" alt="..." style="height: 800px;">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> <br><br><br>
+    <section id="Animals">
+        <h1>ANIMALS</h1><br><br>
+        <div class="container">
+          <!--image row start-->
+          <div class="row">
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/JellyFish/jelly2.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>Jelly <span>Fish</span></h2>
+                <p>Jellyfish are fascinating marine creatures belonging to the phylum Cnidaria. These gelatinous animals come in a variety of shapes, sizes, and colors.</p>
+                <div class="more">
+                  <a href="JellyFish.html" class="read-more">Show <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/Crab/crab.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>CRABS</h2>
+                <p>Crabs are crustaceans characterized by their distinctive, sideways-walking gait and hard exoskeletons.</p>
+                <div class="more">
+                  <a href="crab.html" class="read-more">Show <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/SeaHorse/horse2.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>Sea <span>Horse</span></h2>
+                <p>Seahorses are captivating marine creatures that belong to the family Syngnathidae, which also includes pipefish and sea dragons.</p>
+                <div class="more">
+                  <a href="seahorse.html" class="read-more">Show <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+          </div>
+          <!--image row end-->
+          <!--image row start-->
+          <div class="row">
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/StarFish/star.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>Star <span>Fish</span></h2>
+                <p>Starfish, also known as sea stars, are fascinating marine invertebrates belonging to the class Asteroidea.</p>
+                <div class="more">
+                  <a href="StarFish.html" class="read-more">Show <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/Dolphin/dolphin.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>PLAYFUL <span>DOLPHIN</span></h2>
+                <p>Playful dolphins are renowned for their joyful and social behaviors, captivating both researchers and admirers of marine life.</p>
+                <div class="more">
+                  <a href="dolphin.html" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/Octopus/octopus.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>OCTO<span>PUS</span></h2>
+                <p>Octopuses are fascinating and highly intelligent marine animals belonging to the class Cephalopoda.</p>
+                <div class="more">
+                  <a href="octopus.html" class="read-more">Read <span>More</span></a>
+                  <div class="icon-links">
+                    <a href="#"><i class="fas fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                    <a href="#"><i class="fas fa-paperclip"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+          </div>
+          <!--image row end-->
+        </div>
+        <!--image card layout end-->
+    
+    </section>
+    <section id="Gallery">
+        <h1>GALLERY</h1><br><br>
+        <div class="wrapper">
+          <img src="https://source.unsplash.com/random/600x600?fish" alt="">
+          <img src="https://source.unsplash.com/random/600x600?fish" alt="">
+          <img src="https://source.unsplash.com/random/600x600?seahorse" alt="">
+          <img src="https://source.unsplash.com/random/600x600?seahorse" alt="">
+          <img src="https://source.unsplash.com/random/600x600?dolphin" alt="">
+          <img src="https://source.unsplash.com/random/600x600?dolphin" alt="">
+          <img src="https://source.unsplash.com/random/600x600?jellyfish" alt="">
+          <img src="https://source.unsplash.com/random/600x600?octopus" alt="">
+          <img src="https://source.unsplash.com/random/600x600?starfish" alt="">
+          <img src="https://source.unsplash.com/random/600x600?crab" alt="">
+        </div>
+    </section><br><br><br><br><br><br>
+    <section id="Contact">
+      <h1>CONTACT US</h1><br><br>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">DHA PHASE 07 EXTENSION</div>
+            <div class="text-two">KARACHI, SINDH</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one">+92 3182728472</div>
+            <div class="text-two">+92 3128358946</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">mahsankhan290@gmail.com</div>
+            <div class="text-one">mudassirwaheed183@gmail.com</div>
+            <div class="text-two"></div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+          <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Enter your email">
+          </div>
+          <div class="input-box message-box">
+            <input type="text" placeholder="Enter your Message">
+          </div>
+          <div class="button">
+            <input type="button" value="Send Now" >
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+  </section><br><br>
+  <section id="Timings">
+    <h1>Timings</h1>
+    <div class="inner1" >
+    <center><img src="assets/Screenshot 2024-01-12 032121.png" alt=""></center> <br><br><br><br><br>
+  </section>
+      <section id="Booking">
+    <h1>BOOKING</h1><br><br><br>
+    <div class="container">
+      <h1 class="text-danger">Event Booking Form:</h1>
+      <center><div class="well well-sm">Fill out the form and click the submit button when complete.</div></center>
+      <form data-toggle="validator" id="myform">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="panel panel-primary">
+                  <div class="panel-body" style="margin-left:20%">
+                    <div class="form-group username">
+                      <label for="username" class="control-label col-sm-4">Username<span style="color: red;">*</span>:</label>
+                      <div class="col-sm-8">
+                        <input name="username" type="text" class="form-control" placeholder="Type username..." required oninvalid="$('.username').addClass('has-error'); toastr['error']('', 'Username required!', {closeButton: true});" />
+                      </div>
+                    </div>
+                    <div class="form-group fname">
+                      <label for="fname" class="control-label col-sm-4">First Name<span style="color: red;">*</span>:</label>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Type first name..." required oninvalid="$('.fname').addClass('has-error'); toastr['error']('', 'First name required!', {closeButton: true});">
+                      </div>
+                    </div>
+                    <div class="form-group lname">
+                      <label for="lname" class="control-label col-sm-4">Last Name<span style="color: red;">*</span>:</label>
+                      <div class="col-sm-8">
+                        <input type="text" class="form-control" placeholder="Type last name..." required oninvalid="$('.lname').addClass('has-error'); toastr['error']('', 'Last name required!', {closeButton: true});">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-primary">
+                  <div class="panel-heading"style="margin-left:20%">
+                    <label for="contact">Contact<span style="color: red;">*</span>:</label>
+                  </div>
+                  <div class="panel-body"style="margin-left:20%">
+                    <div class="input-group phone">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                      <input type="tel" class="form-control" placeholder="Type phone#..." required oninvalid="$('.phone').addClass('has-error'); toastr['error']('', 'Phone number required!', {closeButton: true});">
+                    </div>
+                    <div class="input-group email">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                      <input type="email" class="form-control" placeholder="Type e-mail" required oninvalid="$('.email').addClass('has-error'); toastr['error']('', 'Email required!', {closeButton: true});">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="panel panel-primary">
+                  <div class="panel-heading"style="margin-left:20%">
+                    <label for="schedule">Schedule<span style="color: red;">*</span>:</label>
+                  </div>
+                  <div class="panel-body"style="margin-left:20%">
+                    <label for="email">Adults<span style="color: red;">*</span>:</label>
+                    <div>
+                      <select class="form-control schedule" name="adults">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                      </select>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="checkin">Check-in<span style="color: red;">*</span>:</label>
+                          <input name="checkin" type="date" class="form-control schedule" />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="checkout">Check-out<span style="color: red;">*</span>:</label>
+                          <input name="checkout" type="date" class="form-control schedule" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="days">Days:</label>
+                          <input name="days" type="text" class="form-control" placeholder="Displays days..." readonly />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="cost">Cost($):</label>
+                          <input name="cost" type="text" class="form-control" placeholder="Displays cost..." readonly />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-toolbar" style="margin-left:45% ">
+          <button type="submit" class="btn btn-success pull-right"><i class="glyphicon glyphicon-send"></i> Submit</button>
+          <button type="reset" class="btn btn-primary pull-right"><i class="fa fa-eraser"></i> Reset</button>
+        </div>
+      </form>
+    </div>
+    </section><br><br><br>
+
+
+
+
+    <section id="Events">
+      <h1>UPCOMING EVENTS (FOR CHILDREN)</h1><br><br>
+        <div class="container">
+          <!--image row start-->
+          <div class="row">
+            <!--image card start-->
+            <div class="image">
+              <img src="https://www.national-aquarium.co.uk/wp-content/uploads/cage.snorkel-60-scaled.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>SNORKEL AT THE <span>AQUARIUM</span></h2>
+                <div class="more">
+                  <a href="#" class="read-more">Wednesday to Sunday <a href="#"><i class="fas fa-clock"></i></a><span style="color: #164863;"> 5:30 PM - 7:30 PM</span></a>
+                </div>
+              </div>
+              
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="assets/Crab/crab.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>OCEAN TODDS AT THE <span>AQUARIUM</span></h2>
+                <div class="more">
+                  <a href="#" class="read-more">Wednesday to Sunday <a href="#"><i class="fas fa-clock"></i></a><span style="color: #164863;"> 5:30 PM - 7:30 PM</span></a>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+            <!--image card start-->
+            <div class="image">
+              <img src="https://www.national-aquarium.co.uk/wp-content/uploads/IMG_0088.jpg" alt="" style="width: 400px; height: 300px;">
+              <div class="details">
+                <h2>QUIET AT THE <span>AQUARIUM</span></h2>
+                <div class="more"> 
+                  <a href="#" class="read-more">Every Friday <a href="#"><i class="fas fa-clock"></i></a><span style="color: #164863;"> 10:30 AM - 12:30 AM</span></a>
+                </div>
+              </div>
+            </div>
+            <!--image card end-->
+          </div>
+          <!--image row end-->
+          <div class="book-now">
+            <a href="#Booking"><center><input type="button" value="Book Now" style="color: #fff; font-size: 18px; outline: none; order: none; padding: 8px 16px; border-radius: 6px; background: #3e2093; cursor: pointer; transition: all 0.3s ease;"></center></a>
+          </div>
+        </section>
+      
+<section class="content">
+  <aside>
+    <h2 style="margin-left: 20px; font-weight: bolder;">FAQ's</h2>
+    <p>WE UNDERSTAND THAT YOU HAVE A QUESTION SO TYPE IN FAQ..</p>
+    <img src="assets/2.jpg"/>
+  </aside>
+  <main>
+    <h2>AQUARIUM INFORMATION</h2>
+    <details>
+        <summary>AQUARIUM TIMING?</summary>
+        <p>9:00 AM - 6:00 PM, Monday to Sunday</p>
+    </details>
+    <details>
+        <summary>AQUARIUM EVENTS?</summary>
+        <p>Aquariums host a variety of events, including educational programs, interactive exhibits, behind-the-scenes tours, feeding demonstrations, and special themed events like underwater shows and marine conservation awareness days. Check the aquarium's schedule for specific details on upcoming events.</p>
+    </details>
+    <details>
+        <summary>TICKET'S PRICE?</summary>
+        <p>The ticket prices for aquarium events can vary depending on the specific details of the event and the location of the aquarium. For instance, regular admission for adults might range from $20 to $40, with discounted rates for children, seniors, and students. Special events or themed exhibits may have separate pricing.</p>
+    </details>
+  </main>
+</section>
+</section>
+  </section><br><br><br><br>
+  <section id="Feedback">
+    <!-- ##### Newsletter & Testimonials Area Start ##### -->
+    <section class="newsletter-testimonials-area">
+      <div class="container">
+          <div class="row">
+
+              <!-- Newsletter Area -->
+              <div class="col-12 col-lg-6">
+                  <div class="newsletter-area mb-100">
+                      <div class="section-heading text-left mb-50">
+                          <h2>Subscribe to newsletter</h2>
+                      </div>
+                      <div class="newsletter-form">
+                          <form action="#">
+                              <input type="search" name="search" id="newsletterSearch" placeholder="E-mail">
+                              <input type="input" name="message" id="newsletterSearch" placeholder="Message">
+                              <button type="submit" class="btn oneMusic-btn">Subscribe <i class="fa fa-angle-double-right"></i></button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Testimonials Area -->
+              <div class="col-12 col-lg-6">
+                  <div class="testimonials-area ">
+                      <div class="section-heading white text-left mb-50">
+                          <h2>Testimonial</h2>
+                      </div>
+                      <!-- Testimonial Slide -->
+                      <div class="testimonials-slide owl-carousel">
+                          <!-- Single Slide -->
+                          <div class="single-slide">
+                              <p style="color: #164863;">Greetings from NEXUS AQUARIUM! We are thrilled to invite you to join our exclusive community and subscribe to our newsletter. By subscribing, you'll dive into a world of aquatic wonders, exciting events, and insightful information about the mesmerizing life underwater. </p>
+                              <div class="testimonial-info d-flex align-items-center">
+                                  <p style="color: #164863;">Muhammad Ahsan, Developer <br>Mudassir Waheed, Developer</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </div><br><br>
+  </section>
+  <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14485.859289578564!2d67.07288150000001!3d24.81377285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c604e810313%3A0xf626dc431e533d89!2sPhase%207%20Extension%20Phase%207%20Defence%20Housing%20Authority%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075500!5e0!3m2!1sen!2s!4v1705494884261!5m2!1sen!2s" width="1000" height="450" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center><hr>
+
+  <section id="footer">
+    <footer>
+      <div class="container-footer">
+        <div class="left-section">
+          <img src="assets//Nexus-removebg-preview.png" alt="Website logo" style="width: 10%; height: 5%;">
+          <p>&copy;Copyright 2024 - NexusAquarium. All Rights Reserved.</p>
+        </div>
+    
+        <div class="center-section">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Contact">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="SiteMap.html">Site Map</a></li>
+
+          </ul>
+        </div>
+    
+        <div class="right-section">
+          <p><b>Veterinary Disclaimer:</b> AquariumNexus.com does not intend to provide any kind of veterinary suggestion. <br>
+          The content of this website is not meant to be a substitute for professional medical advice. Please always ask a <br>
+          veterinarian for help regarding your pets.</p>
+        </div>
+      </div>
+    </footer>
+    
+  </section>
+  <script src="index.js"></script>
+  </body>
+</html>
